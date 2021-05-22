@@ -77,7 +77,7 @@ func run(ifaceName string, server network.Server, continuous bool, delay float32
 	// get the source ip that we'll send the packet from
 	clientIP := network.GetClientIP(server.Addr.IP)
 
-	cmd.RunCmd("wg-quick", "up", ifaceName)
+	// cmd.RunCmd("wg-quick", "up", ifaceName)
 
 	// get info about the Wireguard config
 	clientPort := cmd.GetClientPort(ifaceName)
