@@ -18,7 +18,7 @@ Example:
 
 The server associates each pubkey to an ip and a port. Doesn't require root to run.
 ```
-Usage: ./server PORT [PRIVATE_KEY]
+Usage: ./server ADDR:PORT [PRIVATE_KEY]
 ```
 
 ## Why
